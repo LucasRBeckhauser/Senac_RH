@@ -33,7 +33,43 @@ public class FuncionarioService {
         if(porId.isPresent()){
             Funcionario funcionario = porId.get();
 
-            //funcionario.setAtributo(entity.geAtributo()); (Adaptar)
+            funcionario.setCargo(entity.getCargo());
+            funcionario.setCpf(entity.getCpf());
+            funcionario.setRg(entity.getRg());
+            funcionario.setNome(entity.getNome());
+            funcionario.setEndereco(entity.getEndereco());
+            funcionario.setCtps(entity.getCtps());
+            funcionario.setSalario(entity.getSalario());
+            funcionario.setTituloEleitor(entity.getTituloEleitor());
+            funcionario.setDataNascimento(entity.getDataNascimento());
+            funcionario.setCarteiraReservista(entity.getCarteiraReservista());
+            funcionario.setPisPasep(entity.getPisPasep());
+            funcionario.setRegistroProfissional(entity.getRegistroProfissional());
+            funcionario.setSindicato(entity.getSindicato());
+            funcionario.setSetor(entity.getSetor());
+            funcionario.setCnh(entity.getCnh());
+            funcionario.setDataAdimissao(entity.getDataAdimissao());
+            funcionario.setRacaCor(entity.getRacaCor());
+            funcionario.setReligiao(entity.getReligiao());
+            funcionario.setDoadorSangue(entity.getDoadorSangue());
+            funcionario.setCertificacoes(entity.getCertificacoes());
+            funcionario.setNacionalidade(entity.getNacionalidade());
+            funcionario.setRedeSocial(entity.getRedeSocial());
+            funcionario.setAreaAtuacao(entity.getAreaAtuacao());
+            funcionario.setMatricula(entity.getMatricula());
+            funcionario.setExpAnteriores(entity.getExpAnteriores());
+            funcionario.setIdiomas(entity.getIdiomas());
+            funcionario.setHoraExtra(entity.getHoraExtra());
+            funcionario.setEntrada(entity.getEntrada());
+            funcionario.setSaida(entity.getSaida());
+            funcionario.setEscolaridade(entity.getEscolaridade());
+            funcionario.setEstadoCivil(entity.getEstadoCivil());
+            funcionario.setGenero(entity.getGenero());
+            funcionario.setModalidadeContratual(entity.getModalidadeContratual());
+            funcionario.setStatus(entity.getStatus());
+            funcionario.setTipoConta(entity.getTipoConta());
+            funcionario.setTipoRH(entity.getTipoRH());
+            funcionario.setTurno(entity.getTurno());
 
             return repository.save(funcionario);
         }

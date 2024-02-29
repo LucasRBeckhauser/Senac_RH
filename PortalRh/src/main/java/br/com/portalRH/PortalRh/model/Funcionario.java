@@ -9,9 +9,9 @@ public class Funcionario {
     private String cpf;
     private String rg;
     private String endereco;
-    private String ctbs;
+    private String ctps;
     private Double salario;
-    private String tituliEleitor;
+    private String tituloEleitor;
     private LocalDate dataNascimento;
     private String carteiraReservista;
     private String pisPasep;
@@ -76,12 +76,12 @@ public class Funcionario {
         this.endereco = endereco;
     }
 
-    public String getCtbs() {
-        return ctbs;
+    public String getCtps() {
+        return ctps;
     }
 
-    public void setCtbs(String ctbs) {
-        this.ctbs = ctbs;
+    public void setCtps(String ctbs) {
+        this.ctps = ctbs;
     }
 
     public Double getSalario() {
@@ -92,12 +92,12 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public String getTituliEleitor() {
-        return tituliEleitor;
+    public String getTituloEleitor() {
+        return tituloEleitor;
     }
 
-    public void setTituliEleitor(String tituliEleitor) {
-        this.tituliEleitor = tituliEleitor;
+    public void setTituloEleitor(String tituloEleitor) {
+        this.tituloEleitor = tituloEleitor;
     }
 
     public LocalDate getDataNascimento() {
@@ -352,9 +352,9 @@ public class Funcionario {
                 ", cpf='" + cpf + '\'' +
                 ", rg='" + rg + '\'' +
                 ", endereco='" + endereco + '\'' +
-                ", ctbs='" + ctbs + '\'' +
+                ", ctbs='" + ctps + '\'' +
                 ", salario=" + salario +
-                ", tituliEleitor='" + tituliEleitor + '\'' +
+                ", tituliEleitor='" + tituloEleitor + '\'' +
                 ", dataNascimento=" + dataNascimento +
                 ", carteiraReservista='" + carteiraReservista + '\'' +
                 ", pisPasep='" + pisPasep + '\'' +
