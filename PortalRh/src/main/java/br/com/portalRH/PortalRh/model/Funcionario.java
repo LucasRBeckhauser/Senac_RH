@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
-public class Funcionario {
+public class Funcionario extends EntityId{
     private String nome;
     private String cpf;
     private String rg;
